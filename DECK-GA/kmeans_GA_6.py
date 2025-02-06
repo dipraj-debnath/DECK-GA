@@ -36,7 +36,7 @@ def main():
     points = load_points()
     num_points = len(points)
     num_uavs = 3
-    plotting = False
+    plotting = True
 
     # Print the input points for KMeans
     print("\n--- KMeans Input ---")
