@@ -1,4 +1,4 @@
-from Kmeans_2 import manual_kmeans_clustering, save_kmeans_results
+from kmeans_Updated_3 import manual_kmeans_clustering, save_kmeans_results
 from GA_path_planning import ga_3d_pathplanning
 import numpy as np
 import matplotlib.pyplot as plt
@@ -33,7 +33,7 @@ def main():
     points = load_points()
     num_points = len(points)
     num_uavs = 3
-    plotting = False
+    plotting = True
 
     # Print the input points for KMeans
     print("\n--- KMeans Input ---")
