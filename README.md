@@ -10,7 +10,7 @@ Below is a examples of description of DECK_GA script and instructions on how to 
 
 ## Prerequisites
 
-Before running the scripts, ensure you have Python installed on your system along with the following packages: numpy, matplotlib, scikit-learn, and pickle. Install these packages using pip:
+Before running the scripts, ensure you have Python installed on your system along with the following packages: `numpy`, `matplotlib`, `scikit-learn`, and `pickle`. Install these packages using pip:
 
 ```bash
 pip install numpy matplotlib scikit-learn pickle5
@@ -23,34 +23,52 @@ Generate_30_points.py - Generates 30 random 3D waypoints
 Generate_100_points.py - Generates 100 random 3D waypoints.
 
 Command to run:
+
+```python
 python Generate_30_points.py
+```
+
+```python
 python Generate_100_points.py
+```
 
 2. Clustering Algorithms:
 Kmeans_2.py - Implements the classical KMeans algorithm.
 kmeans_Updated_3.py - Implements the DynamicCentroid KMeans (DCKmeans) algorithm
 
 Command to run:
+```python
 python Kmeans_2.py
+```
+
+```python
 python kmeans_Updated_3.py
+```
 
 3. Path Planning with Genetic Algorithm
 GA_path_planning.py - Executes the Distance Efficient Genetic Algorithm (DEGA) for path planning.
 
 Command to run:
+
+```python
 python GA_path_planning.py
+```
 
 4. Integrated KMeans and Genetic Algorithm
 kmeans_GA_5.py - Combines KMeans clustering and GA to run the path planning process.
 
 Command to run:
+
+```python
 python kmeans_GA_5.py
+```
 
 5. Repeated Execution for Statistical Analysis
 run_kmeans_GA_10_times.py - This script runs `kmeans_GA_5.py` ten times to generate and save results for further analysis. 
 
 Command to run:
-```bash
+
+```python
 python run_kmeans_GA_10_times.py
 ```
 
