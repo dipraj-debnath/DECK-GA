@@ -19,8 +19,8 @@ pip install numpy matplotlib scikit-learn pickle5
 Scripts and Their Execution Order:
 
 1. Generate Random Points:
-Generate_30_points.py - Generates 30 random 3D waypoints 
-Generate_100_points.py - Generates 100 random 3D waypoints.
+  - Generate_30_points.py - Generates 30 random 3D waypoints 
+  - Generate_100_points.py - Generates 100 random 3D waypoints.
 
 Command to run:
 
@@ -33,8 +33,8 @@ python Generate_100_points.py
 ```
 
 2. Clustering Algorithms:
-Kmeans_2.py - Implements the classical KMeans algorithm.
-kmeans_Updated_3.py - Implements the DynamicCentroid KMeans (DCKmeans) algorithm
+  - Kmeans_2.py - Implements the classical KMeans algorithm.
+  - kmeans_Updated_3.py - Implements the DynamicCentroid KMeans (DCKmeans) algorithm
 
 Command to run:
 ```python
@@ -46,7 +46,7 @@ python kmeans_Updated_3.py
 ```
 
 3. Path Planning with Genetic Algorithm
-GA_path_planning.py - Executes the Distance Efficient Genetic Algorithm (DEGA) for path planning.
+  - GA_path_planning.py - Executes the Distance Efficient Genetic Algorithm (DEGA) for path planning.
 
 Command to run:
 
@@ -55,7 +55,7 @@ python GA_path_planning.py
 ```
 
 4. Integrated KMeans and Genetic Algorithm
-kmeans_GA_5.py - Combines KMeans clustering and GA to run the path planning process.
+  - kmeans_GA_5.py - Combines KMeans clustering and GA to run the path planning process.
 
 Command to run:
 
@@ -64,7 +64,7 @@ python kmeans_GA_5.py
 ```
 
 5. Repeated Execution for Statistical Analysis
-run_kmeans_GA_10_times.py - This script runs `kmeans_GA_5.py` ten times to generate and save results for further analysis. 
+  - run_kmeans_GA_10_times.py - This script runs `kmeans_GA_5.py` ten times to generate and save results for further analysis. 
 
 Command to run:
 
